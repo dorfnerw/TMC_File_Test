@@ -21,6 +21,8 @@ typedef struct _TestModuleDataArea1
 {
 	SHORT Symbol1;
 	double NewSymbol;
+	SHORT Symbol3;
+	SHORT Symbol4;
 } TestModuleDataArea1, *PTestModuleDataArea1;
 #pragma pack(pop)
 
