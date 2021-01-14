@@ -1,4 +1,54 @@
 <?xml version="1.0"?>
 <TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.10" ClassName="CNestedCppProjDef">
-	<Project GUID="{5FA5D7E0-DC29-4817-AFEF-4CD97A3F62D1}" Name="TMC_File_Test_Project" PrjFilePath="..\..\TMC_File_Test_Project\TMC_File_Test_Project.vcxproj" TmcFilePath="..\..\TMC_File_Test_Project\TMC_File_Test_Project.tmc"/>
+	<Project GUID="{5FA5D7E0-DC29-4817-AFEF-4CD97A3F62D1}" Name="TMC_File_Test_Project" PrjFilePath="..\..\TMC_File_Test_Project\TMC_File_Test_Project.vcxproj" TmcFilePath="..\..\TMC_File_Test_Project\TMC_File_Test_Project.tmc">
+		<Instance Id="#x01010010" KeepUnrestoredLinks="2" ClassFactoryId="C++ Module Vendor|TMC_File_Test_Project|0.0.0.1">
+			<Name>TMC_File_Test_Project_Obj1 (TestModule)</Name>
+			<TmcDesc GUID="{15743622-DDBC-48FD-9D8B-46F3E4E5756F}">
+				<Name>TestModule</Name>
+				<CLSID ClassFactory="TMC_File_Test_Project">{15743622-DDBC-48FD-9D8B-46F3E4E5756F}</CLSID>
+				<Licenses>
+					<License>
+						<LicenseId>{304D006A-8299-4560-AB79-438534B50288}</LicenseId>
+					</License>
+				</Licenses>
+				<InitSequence>PSO</InitSequence>
+				<Contexts>
+					<Context>
+						<Id>1</Id>
+					</Context>
+				</Contexts>
+				<Interfaces>
+					<Interface DisableCodeGeneration="true">
+						<Type GUID="{00000012-0000-0000-E000-000000000064}">ITComObject</Type>
+					</Interface>
+					<Interface DisableCodeGeneration="true">
+						<Type GUID="{03000012-0000-0000-E000-000000000064}">ITcADI</Type>
+					</Interface>
+					<Interface DisableCodeGeneration="true">
+						<Type GUID="{03000018-0000-0000-E000-000000000064}">ITcWatchSource</Type>
+					</Interface>
+				</Interfaces>
+				<DataAreas>
+					<DataArea>
+						<AreaNo AreaType="Standard">1</AreaNo>
+						<Name>DataArea1</Name>
+						<ContextId>1</ContextId>
+						<ByteSize>10</ByteSize>
+						<Symbol CreateSymbol="true">
+							<Name>Symbol1</Name>
+							<BitSize>16</BitSize>
+							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+							<BitOffs>0</BitOffs>
+						</Symbol>
+						<Symbol CreateSymbol="true">
+							<Name>NewSymbol</Name>
+							<BitSize>64</BitSize>
+							<BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+							<BitOffs>16</BitOffs>
+						</Symbol>
+					</DataArea>
+				</DataAreas>
+			</TmcDesc>
+		</Instance>
+	</Project>
 </TcSmItem>
