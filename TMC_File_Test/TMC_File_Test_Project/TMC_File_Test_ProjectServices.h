@@ -44,7 +44,6 @@ typedef struct _TestModuleDataArea1
 {
 	SHORT dfe;
 	SHORT werq;
-	SHORT hi;
 	MainStruct MainVariable;
 	MainStruct differentOne;
 } TestModuleDataArea1, *PTestModuleDataArea1;
