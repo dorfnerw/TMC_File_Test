@@ -34,7 +34,7 @@
         </Interface>
       </Interfaces>
       <Parameters />
-      <DataAreas ><DataArea><AreaNo AreaType="Standard">1</AreaNo><Name>DataArea1</Name><ContextId>1</ContextId><Symbol CreateSymbol="true"><Name>Symbol1</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol CreateSymbol="true"><Name>NewSymbol</Name><BaseType GUID="{18071995-0000-0000-0000-00000000000e}">LREAL</BaseType></Symbol></DataArea></DataAreas>
+      <DataAreas ><DataArea><AreaNo AreaType="Standard">1</AreaNo><Name>DataArea1</Name><ContextId>1</ContextId><Symbol CreateSymbol="true"><Name>Symbol1</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol></DataArea></DataAreas>
       <InterfacePointers />
       <DataPointers />
       <Deployment />
