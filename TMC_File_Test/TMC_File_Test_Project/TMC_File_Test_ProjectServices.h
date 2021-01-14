@@ -46,6 +46,7 @@ typedef struct _TestModuleDataArea1
 	SHORT werq;
 	MainStruct MainVariable;
 	MainStruct differentOne;
+	SHORT hi;
 } TestModuleDataArea1, *PTestModuleDataArea1;
 #pragma pack(pop)
 
