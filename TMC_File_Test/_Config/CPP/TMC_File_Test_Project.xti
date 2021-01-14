@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.10" ClassName="CNestedCppProjDef">
+	<Project GUID="{5FA5D7E0-DC29-4817-AFEF-4CD97A3F62D1}" Name="TMC_File_Test_Project" PrjFilePath="..\..\TMC_File_Test_Project\TMC_File_Test_Project.vcxproj" TmcFilePath="..\..\TMC_File_Test_Project\TMC_File_Test_Project.tmc"/>
+</TcSmItem>
