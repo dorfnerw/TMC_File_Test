@@ -47,7 +47,7 @@
 							<BitOffs>16</BitOffs>
 						</Symbol>
 						<Symbol>
-							<Name>Symbol3</Name>
+							<Name>Symbol1</Name>
 							<BitSize>16</BitSize>
 							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
 							<BitOffs>32</BitOffs>

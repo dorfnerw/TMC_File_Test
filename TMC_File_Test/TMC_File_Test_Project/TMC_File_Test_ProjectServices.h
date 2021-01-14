@@ -20,7 +20,7 @@ typedef struct _TestModuleDataArea1
 {
 	SHORT Symbol4;
 	SHORT Symbol2;
-	SHORT Symbol3;
+	SHORT Symbol1;
 	SHORT Symbol5;
 	SHORT Symbol3;
 } TestModuleDataArea1, *PTestModuleDataArea1;
