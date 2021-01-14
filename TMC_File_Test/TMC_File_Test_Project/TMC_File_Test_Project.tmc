@@ -34,7 +34,7 @@
         </Interface>
       </Interfaces>
       <Parameters />
-      <DataAreas ><DataArea><AreaNo AreaType="Standard">1</AreaNo><Name>DataArea1</Name><ContextId>1</ContextId><Symbol CreateSymbol="true"><Name>dfe</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol CreateSymbol="true"><Name>werq</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol CreateSymbol="true"><Name>hi</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol CreateSymbol="true"><Name>MainVariable</Name><BaseType GUID="{0e5ea07f-6d6c-4e1d-aff5-025127ac81e2}">MainStruct</BaseType></Symbol></DataArea></DataAreas>
+      <DataAreas ><DataArea><AreaNo AreaType="Standard">1</AreaNo><Name>DataArea1</Name><ContextId>1</ContextId><Symbol CreateSymbol="true"><Name>dfe</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol CreateSymbol="true"><Name>werq</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol CreateSymbol="true"><Name>hi</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol CreateSymbol="true"><Name>MainVariable</Name><BaseType GUID="{0e5ea07f-6d6c-4e1d-aff5-025127ac81e2}">MainStruct</BaseType></Symbol><Symbol CreateSymbol="true"><Name>differentOne</Name><BaseType GUID="{0e5ea07f-6d6c-4e1d-aff5-025127ac81e2}">MainStruct</BaseType></Symbol></DataArea></DataAreas>
       <InterfacePointers />
       <DataPointers />
       <Deployment />

@@ -117,7 +117,7 @@
 						<AreaNo AreaType="Standard">1</AreaNo>
 						<Name>DataArea1</Name>
 						<ContextId>1</ContextId>
-						<ByteSize>36</ByteSize>
+						<ByteSize>66</ByteSize>
 						<Symbol CreateSymbol="true">
 							<Name>dfe</Name>
 							<BitSize>16</BitSize>
@@ -141,6 +141,12 @@
 							<BitSize>240</BitSize>
 							<BaseType GUID="{0E5EA07F-6D6C-4E1D-AFF5-025127AC81E2}">MainStruct</BaseType>
 							<BitOffs>48</BitOffs>
+						</Symbol>
+						<Symbol CreateSymbol="true">
+							<Name>differentOne</Name>
+							<BitSize>240</BitSize>
+							<BaseType GUID="{0E5EA07F-6D6C-4E1D-AFF5-025127AC81E2}">MainStruct</BaseType>
+							<BitOffs>288</BitOffs>
 						</Symbol>
 					</DataArea>
 				</DataAreas>

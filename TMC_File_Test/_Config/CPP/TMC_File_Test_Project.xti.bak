@@ -1,5 +1,89 @@
 <?xml version="1.0"?>
 <TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.10" ClassName="CNestedCppProjDef">
+	<DataTypes>
+		<DataType>
+			<Name GUID="{0E5EA07F-6D6C-4E1D-AFF5-025127AC81E2}">MainStruct</Name>
+			<BitSize>240</BitSize>
+			<SubItem>
+				<Name>SubItem1</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>0</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem2</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000030}">BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>16</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem3</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000010}">BIT</Type>
+				<BitSize>1</BitSize>
+				<BitOffs>24</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem4</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000001}">BYTE</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>32</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem5</Name>
+				<Type GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</Type>
+				<BitSize>64</BitSize>
+				<BitOffs>64</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem6</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>128</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem7</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>144</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem8</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>160</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem9</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>176</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>SubItem10</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>192</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>addedmore</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>208</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>subitems</Name>
+				<Type GUID="{18071995-0000-0000-0000-000000000006}">INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>224</BitOffs>
+			</SubItem>
+			<Hides>
+				<Hide GUID="{E64EDCCA-2405-4A2F-9074-FAC2790FB16D}"/>
+				<Hide GUID="{868C28C1-0256-4424-9820-66F9A9E6FF3E}"/>
+				<Hide GUID="{926A0A06-00A9-4082-91E3-503D71622154}"/>
+				<Hide GUID="{3520D787-F606-4BB3-ADB4-9A45BB1099E9}"/>
+			</Hides>
+		</DataType>
+	</DataTypes>
 	<Project GUID="{5FA5D7E0-DC29-4817-AFEF-4CD97A3F62D1}" Name="TMC_File_Test_Project" PrjFilePath="..\..\TMC_File_Test_Project\TMC_File_Test_Project.vcxproj" TmcFilePath="..\..\TMC_File_Test_Project\TMC_File_Test_Project.tmc">
 		<Instance Id="#x01010010" KeepUnrestoredLinks="2" ClassFactoryId="C++ Module Vendor|TMC_File_Test_Project|0.0.0.1">
 			<Name>TMC_File_Test_Project_Obj1 (TestModule)</Name>
@@ -33,7 +117,7 @@
 						<AreaNo AreaType="Standard">1</AreaNo>
 						<Name>DataArea1</Name>
 						<ContextId>1</ContextId>
-						<ByteSize>6</ByteSize>
+						<ByteSize>36</ByteSize>
 						<Symbol CreateSymbol="true">
 							<Name>dfe</Name>
 							<BitSize>16</BitSize>
@@ -51,6 +135,12 @@
 							<BitSize>16</BitSize>
 							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
 							<BitOffs>32</BitOffs>
+						</Symbol>
+						<Symbol CreateSymbol="true">
+							<Name>MainVariable</Name>
+							<BitSize>240</BitSize>
+							<BaseType GUID="{0E5EA07F-6D6C-4E1D-AFF5-025127AC81E2}">MainStruct</BaseType>
+							<BitOffs>48</BitOffs>
 						</Symbol>
 					</DataArea>
 				</DataAreas>
