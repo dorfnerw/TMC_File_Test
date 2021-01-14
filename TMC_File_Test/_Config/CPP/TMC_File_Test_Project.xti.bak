@@ -33,30 +33,12 @@
 						<AreaNo AreaType="Standard">1</AreaNo>
 						<Name>DataArea1</Name>
 						<ContextId>1</ContextId>
-						<ByteSize>14</ByteSize>
-						<Symbol CreateSymbol="true">
-							<Name>Symbol1</Name>
-							<BitSize>16</BitSize>
-							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
-							<BitOffs>0</BitOffs>
-						</Symbol>
-						<Symbol CreateSymbol="true">
-							<Name>NewSymbol</Name>
-							<BitSize>64</BitSize>
-							<BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
-							<BitOffs>16</BitOffs>
-						</Symbol>
-						<Symbol>
-							<Name>Symbol3</Name>
-							<BitSize>16</BitSize>
-							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
-							<BitOffs>80</BitOffs>
-						</Symbol>
+						<ByteSize>2</ByteSize>
 						<Symbol>
 							<Name>Symbol4</Name>
 							<BitSize>16</BitSize>
 							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
-							<BitOffs>96</BitOffs>
+							<BitOffs>0</BitOffs>
 						</Symbol>
 					</DataArea>
 				</DataAreas>
