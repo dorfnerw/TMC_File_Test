@@ -34,19 +34,19 @@
 						<Name>DataArea1</Name>
 						<ContextId>1</ContextId>
 						<ByteSize>6</ByteSize>
-						<Symbol>
+						<Symbol CreateSymbol="true">
 							<Name>dfe</Name>
 							<BitSize>16</BitSize>
 							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
 							<BitOffs>0</BitOffs>
 						</Symbol>
-						<Symbol>
+						<Symbol CreateSymbol="true">
 							<Name>werq</Name>
 							<BitSize>16</BitSize>
 							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
 							<BitOffs>16</BitOffs>
 						</Symbol>
-						<Symbol>
+						<Symbol CreateSymbol="true">
 							<Name>hi</Name>
 							<BitSize>16</BitSize>
 							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>

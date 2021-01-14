@@ -33,7 +33,7 @@
 						<AreaNo AreaType="Standard">1</AreaNo>
 						<Name>DataArea1</Name>
 						<ContextId>1</ContextId>
-						<ByteSize>6</ByteSize>
+						<ByteSize>8</ByteSize>
 						<Symbol CreateSymbol="true">
 							<Name>dfe</Name>
 							<BitSize>16</BitSize>
@@ -51,6 +51,12 @@
 							<BitSize>16</BitSize>
 							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
 							<BitOffs>32</BitOffs>
+						</Symbol>
+						<Symbol CreateSymbol="true">
+							<Name>MainVariable</Name>
+							<BitSize>16</BitSize>
+							<BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+							<BitOffs>48</BitOffs>
 						</Symbol>
 					</DataArea>
 				</DataAreas>
