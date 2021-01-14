@@ -34,7 +34,7 @@
         </Interface>
       </Interfaces>
       <Parameters />
-      <DataAreas ><DataArea><AreaNo AreaType="Standard">1</AreaNo><Name>DataArea1</Name><ContextId>1</ContextId><Symbol><Name>Symbol4</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol><Name>Symbol2</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol><Name>Symbol3</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol><Symbol><Name>Symbol5</Name><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType></Symbol></DataArea></DataAreas>
+      <DataAreas ><DataArea><AreaNo AreaType="Standard">1</AreaNo><Name>DataArea1</Name><ContextId>1</ContextId><ByteSize>10</ByteSize><Symbol><Name>Symbol4</Name><BitSize>16</BitSize><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType><BitOffs>0</BitOffs></Symbol><Symbol><Name>Symbol2</Name><BitSize>16</BitSize><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType><BitOffs>16</BitOffs></Symbol><Symbol><Name>Symbol3</Name><BitSize>16</BitSize><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType><BitOffs>32</BitOffs></Symbol><Symbol><Name>Symbol5</Name><BitSize>16</BitSize><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType><BitOffs>48</BitOffs></Symbol><Symbol><Name>Symbol3</Name><BitSize>16</BitSize><BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType><BitOffs>64</BitOffs></Symbol></DataArea></DataAreas>
       <InterfacePointers />
       <DataPointers />
       <Deployment />
